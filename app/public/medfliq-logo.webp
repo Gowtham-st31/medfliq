@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/webp" href="/medfliq-logo.webp" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MedFliq - Clinical co-pilot for doctors</title>
+    <meta name="description" content="MedFliq is a clinical AI co-pilot designed specifically for Indian outpatient clinics and hospitals, featuring seamless workflow integration for doctors." />
+    
+    <!-- Open Graph / Facebook / LinkedIn / WhatsApp -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://medfliq.com/" />
+    <meta property="og:title" content="MedFliq - Clinical co-pilot for doctors" />
+    <meta property="og:description" content="MedFliq is a clinical AI co-pilot designed specifically for Indian outpatient clinics and hospitals." />
+    <meta property="og:image" content="https://medfliq.com/medfliq-logo.webp" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://medfliq.com/" />
+    <meta property="twitter:title" content="MedFliq - Clinical co-pilot for doctors" />
+    <meta property="twitter:description" content="MedFliq is a clinical AI co-pilot designed specifically for Indian outpatient clinics and hospitals." />
+    <meta property="twitter:image" content="https://medfliq.com/medfliq-logo.webp" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://medfliq.com/" />
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "MedFliq",
+      "applicationCategory": "HealthApplication",
+      "operatingSystem": "Web",
+      "url": "https://medfliq.com/",
+      "image": "https://medfliq.com/medfliq-logo.webp",
+      "description": "MedFliq is a clinical AI co-pilot designed specifically for Indian outpatient clinics and hospitals, featuring seamless workflow integration for doctors.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "MedFliq",
+        "url": "https://medfliq.com/",
+        "logo": "https://medfliq.com/medfliq-logo.webp"
+      }
+    }
+    </script>
+    <!-- Standard for polite AI Agents -->
+    <link rel="alternate" type="application/llms+text" href="/llms.txt" />
+
+    <!-- JavaScript Trap for aggressive headless AI Agents (whitelists SEO crawlers) -->
+    <script>
+      if (navigator.webdriver && !navigator.userAgent.includes('Googlebot') && !navigator.userAgent.includes('bingbot')) {
+        document.addEventListener('DOMContentLoaded', function() {
+          var root = document.getElementById('root');
+          if (root) root.remove();
+          var summary = document.createElement('div');
+          summary.innerHTML = '<h1>MedFliq Summary</h1><p>MedFliq is a clinical AI co-pilot designed specifically for Indian outpatient clinics and hospitals. For full details, please visit as a human user or see our <a href="/llms.txt">/llms.txt</a> file.</p>';
+          document.body.appendChild(summary);
+        });
+      }
+    </script>
+    <script type="module" crossorigin src="/assets/index-BOh88sE4.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-IwsH3zR8.css">
+  </head>
+  <body>
+    <div id="root"><!--ssr-outlet--></div>
+  </body>
+</html>
